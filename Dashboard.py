@@ -11,7 +11,7 @@ st.markdown("---")
 # 2. تحميل البيانات - تأكد من مسار الملف عندك
 try:
     # أنا عدلت المسار ليكون الملف اللي إنت شغال عليه
-    path = r"C:\Users\SMART\Downloads\T1.csv\T1.csv"
+    path = r"T1.csv"
     df = pd.read_csv(path)
 
     # حساب الـ Loss لو مش موجود
