@@ -7,7 +7,7 @@ st.title("🔌 Wind Turbine Real-Time Monitoring System")
 
 try:
     # قراءة الملف من نفس المسار على جيت هاب
-    df = pd.read_csv("T1.csv",encoding="latin-1")
+    df = pd.read_csv("T1.csv",encoding='latin-1')
     
     # التأكد من حساب الفقد
     df['Loss'] = df['Theoretical_Power_Curve (KWh)'] - df['LV ActivePower (kW)']
